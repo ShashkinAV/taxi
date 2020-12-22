@@ -1,0 +1,21 @@
+.header {
+	display: flex;
+	justify-content: space-between;
+}
+.logo__img {
+	width: 80px;
+}
+.menu__list {
+	list-style-type: none;
+	display: flex;
+}
+.menu__item {
+	margin-left: 15px;
+	cursor: pointer;
+}
+.menu__item:hover {
+	color: red;
+}
+.active {
+	color: orange;
+}
